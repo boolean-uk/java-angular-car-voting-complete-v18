@@ -1,0 +1,11 @@
+@if (this.car===null) {
+  <div>
+    <p><strong>Car not available</strong></p>
+  </div>
+} @else {
+  <div>
+    <h3>Make: {{car.make}}</h3>
+    <p>Model: {{car.model}}</p>
+    <p>{{car.description}}</p>
+  </div>
+}
